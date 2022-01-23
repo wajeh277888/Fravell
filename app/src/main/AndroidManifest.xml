@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.fravell">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Fravell">
+        <activity
+            android:label="Filter Messages"
+            android:name=".FilterMessage"
+            android:exported="false" />
+        <activity
+            android:name=".ToNewMessage"
+            android:label="New Message"
+            android:exported="false" />
+        <activity
+            android:name=".MessagesMainScreen"
+            android:exported="false"
+            android:label="Messages" />
+        <activity
+            android:name=".CartScreen"
+            android:exported="false"
+            android:icon="@drawable/cart_icon"
+            android:label="Cart" />
+        <activity
+            android:name=".EnrouteFravellers"
+            android:exported="false" />
+        <activity
+            android:name=".CustomOrderDetails"
+            android:exported="false"
+            android:label="Enter Order Details" />
+        <activity
+            android:name=".NewPassEnter"
+            android:label="New PassWord" />
+        <activity android:name=".ForgotPinVeri" />
+        <activity android:name=".ForgotPass" />
+        <activity android:name=".Login" />
+        <activity android:name=".NumVeri1" />
+        <activity android:name=".PhoneNumVeri" />
+        <activity android:name=".EmailVeri" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
