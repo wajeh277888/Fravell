@@ -10,13 +10,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Fravell">
         <activity
-            android:label="Filter Messages"
-            android:name=".FilterMessage"
+            android:name=".NavHeader"
             android:exported="false" />
         <activity
-            android:name=".ToNewMessage"
-            android:label="New Message"
+            android:name=".NavigationDrawer"
             android:exported="false" />
+        <activity
+            android:name=".FilterMessage"
+            android:exported="false"
+            android:label="Filter Messages" />
+        <activity
+            android:name=".ToNewMessage"
+            android:exported="false"
+            android:label="New Message" />
         <activity
             android:name=".MessagesMainScreen"
             android:exported="false"
