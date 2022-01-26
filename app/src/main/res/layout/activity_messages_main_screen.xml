@@ -11,7 +11,7 @@
     android:orientation="vertical">
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="600dp"
+        android:layout_height="500dp"
         android:orientation="vertical">
 
         <androidx.cardview.widget.CardView
@@ -473,7 +473,7 @@
         android:layout_width="57dp"
         android:layout_height="36dp"
         android:layout_gravity="right"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="30dp"
         android:layout_marginRight="20dp"
         app:srcCompat="@drawable/newmessage" />
 </LinearLayout>
