@@ -6,11 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".ProductDetailPage">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
-
     <ImageView
         android:id="@+id/imageView9"
         android:layout_width="match_parent"
@@ -19,122 +14,14 @@
         tools:layout_editor_absoluteX="138dp"
         tools:layout_editor_absoluteY="44dp" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp">
     <Spinner
-        android:id="@+id/spinner2"
-        android:layout_width="150dp"
-        android:layout_height="wrap_content"
+        android:id="@+id/spinner1"
+        android:layout_width="130dp"
+        android:layout_marginTop="200dp"
         android:layout_marginLeft="30dp"
-        android:layout_marginTop="20dp"
+        android:tooltipText="size"
+        android:layout_height="wrap_content"
         android:background="@android:drawable/btn_dropdown"
-        android:spinnerMode="dropdown"
-    />
-
-            <ImageView
-                android:layout_width="51dp"
-                android:layout_height="47dp"
-                android:layout_marginLeft="170dp"
-                android:layout_marginTop="20dp"
-                app:srcCompat="@drawable/favorites"
-                tools:layout_editor_absoluteX="138dp"
-                tools:layout_editor_absoluteY="44dp" />
-
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Pine Nuts"
-                android:textSize="30sp"
-                android:textStyle="bold"
-                android:textColor="@color/black"
-                android:layout_marginLeft="10dp"/>
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="$22"
-                android:textSize="30sp"
-                android:textStyle="bold"
-                android:layout_marginLeft="150dp"/>
-
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="$19"
-                android:textSize="30sp"
-                android:textStyle="bold"
-                android:textColor="@color/main"
-                android:layout_marginLeft="10dp"/>
-
-        </LinearLayout>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Brown Bling"
-            android:textSize="15sp"
-            android:layout_marginLeft="10dp"/>
-
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Short Dress jkdfhjkgaskfhdaklhdfkh kajdfhajklsd askfhasdjkfh lakjshdfjklasdf kahldfjkhasd kajhfdjklahsk kaljdfha kajshldfas kajlsdhfkasd fklajhdf askldjfaskd flasjdf asdfljkhasdkf baskldjfbaskd fklasjdf asfkljhn
-Short Dress jkdfhjkgaskfhdaklhdfkh kajdfhajklsd askfhasdjkfh lakjshdfjklasdf kahldfjkhasd kajhfdjklahsk kaljdfha kajshldfas kajlsdhfkasd fklajhdf askldjfaskd flasjdf asdfljkhasdkf baskldjfbaskd fklasjdf asfkljhn"
-            android:textSize="20sp"
-            android:layout_marginTop="25dp"
-            android:textColor="@color/black"
-            android:layout_marginLeft="10dp"/>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Reviews (67)"
-                android:textSize="25sp"
-                android:layout_marginTop="15dp"
-                android:textStyle="bold"
-                android:textColor="@color/black"
-                android:layout_marginLeft="15dp"/>
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="READ ALL"
-                android:layout_marginTop="15dp"
-                android:textColor="@color/main"
-                android:textSize="25sp"
-                android:textStyle="bold"
-                android:layout_marginLeft="120dp"/>
-
-        </LinearLayout>
-
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
-            android:textColor="@color/white"
-            android:textSize="20sp"
-            android:background="@drawable/filled_btn_general"
-            android:layout_marginRight="20dp"
-            android:layout_marginTop="30dp"
-            android:text="ADD TO CART"></Button>
-
-    </LinearLayout>
+        android:spinnerMode="dropdown"/>
 
 </RelativeLayout>

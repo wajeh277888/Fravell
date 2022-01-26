@@ -47,13 +47,15 @@
 
 
         <EditText
+            android:id="@+id/editTextUsername"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_margin="@dimen/entry_fields_diff"
-            android:hint="Email"></EditText>
+            android:hint="Username"></EditText>
 
 
         <EditText
+            android:id="@+id/editTextPassword"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_margin="@dimen/entry_fields_diff"
