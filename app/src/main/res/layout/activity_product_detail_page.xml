@@ -138,16 +138,6 @@ Short Dress jkdfhjkgaskfhdaklhdfkh kajdfhajklsd askfhasdjkfh lakjshdfjklasdf kah
             android:text="ADD TO CART"></Button>
 
     </LinearLayout>
-=======
-    <Spinner
-        android:id="@+id/spinner1"
-        android:layout_width="130dp"
-        android:layout_marginTop="200dp"
-        android:layout_marginLeft="30dp"
-        android:tooltipText="size"
-        android:layout_height="wrap_content"
-        android:background="@android:drawable/btn_dropdown"
-        android:spinnerMode="dropdown"/>
->>>>>>> origin/master
+
 
 </RelativeLayout>
