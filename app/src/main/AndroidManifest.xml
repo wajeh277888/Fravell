@@ -4,14 +4,24 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/fravellmainlogo"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Fravell">
         <activity
             android:name=".ProductDetailPage"
+<<<<<<< HEAD
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+=======
             android:exported="false" />
+>>>>>>> origin/master
         <activity
             android:name=".NavHeader"
             android:exported="false" />
@@ -51,13 +61,9 @@
         <activity android:name=".NumVeri1" />
         <activity android:name=".PhoneNumVeri" />
         <activity android:name=".EmailVeri" />
-        <activity android:name=".MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+        <activity android:name=".MainActivity"
+            android:exported="true"/>
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
     </application>
 
 </manifest>

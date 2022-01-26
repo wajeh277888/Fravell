@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+
+
+=======
 import java.util.ArrayList;
 
 import android.content.Context;
@@ -50,3 +54,4 @@ public class StatusAdapter extends ArrayAdapter<StatusBean> {
         return row;
     }
 }
+>>>>>>> origin/master
